@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ckw.zfsoft.useeasyrecyclerview.targetactivity.RefreshMoreActivity">
+
+    <com.jude.easyrecyclerview.EasyRecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:scrollbarStyle="insideOverlay"
+        app:layout_progress="@layout/view_progress"
+        app:layout_empty="@layout/view_empty"/>
+
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/btn_toTop"
+        android:src="@drawable/ic_top"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="16dp"
+        app:fab_colorNormal="?colorAccent"
+        app:fab_colorPressed="?colorAccent"
+        app:fab_size="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
