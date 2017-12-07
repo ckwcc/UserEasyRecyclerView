@@ -1,1 +1,2 @@
-# UserEasyRecyclerView
+# UseEasyRecyclerView
+使用Kotlin写的使用第三方控件EasyRecyclerView
