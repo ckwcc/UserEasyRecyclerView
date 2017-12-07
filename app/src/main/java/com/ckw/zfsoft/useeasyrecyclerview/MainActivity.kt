@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.ckw.zfsoft.useeasyrecyclerview.targetactivity.CollapsingActivity
 import com.ckw.zfsoft.useeasyrecyclerview.targetactivity.MultiTypeActivity
 import com.ckw.zfsoft.useeasyrecyclerview.targetactivity.RefreshMoreActivity
+import com.ckw.zfsoft.useeasyrecyclerview.targetactivity.StickyHeaderActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -31,6 +32,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MultiTypeActivity::class.java)
             startActivity(intent)
         }
+
+        btn_sticky.setOnClickListener{
+            val intent = Intent(this, StickyHeaderActivity::class.java)
+            startActivity(intent)
+        }
+
+
 
 
     }

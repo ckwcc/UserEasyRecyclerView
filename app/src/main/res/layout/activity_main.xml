@@ -24,4 +24,10 @@
         android:text="multitype"
         android:layout_height="48dp" />
 
+    <Button
+        android:id="@+id/btn_sticky"
+        android:layout_width="match_parent"
+        android:text="sticky_header"
+        android:layout_height="48dp" />
+
 </LinearLayout>

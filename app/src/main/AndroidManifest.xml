@@ -22,7 +22,8 @@
         <activity
             android:name=".targetactivity.CollapsingActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".targetactivity.MultiTypeActivity"></activity>
+        <activity android:name=".targetactivity.MultiTypeActivity" />
+        <activity android:name=".targetactivity.StickyHeaderActivity"></activity>
     </application>
 
 </manifest>

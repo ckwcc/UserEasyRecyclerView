@@ -1,22 +1,16 @@
 package com.ckw.zfsoft.useeasyrecyclerview.targetactivity
 
 import android.graphics.Color
-import android.graphics.pdf.PdfDocument
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.provider.ContactsContract
 import android.support.v4.widget.SwipeRefreshLayout
 import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
 import android.view.Menu
 import android.view.ViewGroup
 import android.widget.CheckBox
-import android.widget.CompoundButton
-import android.widget.Toast
 import com.ckw.zfsoft.useeasyrecyclerview.DataProvider
 import com.ckw.zfsoft.useeasyrecyclerview.R
-import com.ckw.zfsoft.useeasyrecyclerview.Utils
 import com.ckw.zfsoft.useeasyrecyclerview.entites.Person
 import com.ckw.zfsoft.useeasyrecyclerview.viewholder.PersonViewHolder
 import com.github.clans.fab.FloatingActionButton
